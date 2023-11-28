@@ -1,0 +1,98 @@
+.container-principal {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 768px;
+  margin: 0 auto;
+  gap: 30px;
+  text-align: center;
+}
+
+.container-input {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.container-input img {
+  width: 35px;
+}
+
+.container-input input {
+  padding-left: 10px;
+  width: 90%;
+  border: 0;
+  outline: none;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.container-input input::placeholder {
+  text-decoration: underline;
+  color: #9a9a9a;
+}
+
+.container-btns {
+  padding: 10px;
+  background-color: black;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container-btns button {
+  padding: 15px 0;
+  flex: 1 1 100px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+}
+
+.container-btns button:nth-child(1) {
+  background-color: green;
+  border-radius: 4px;
+}
+
+.container-btns button:nth-child(2) {
+  background-color: blue;
+  border-radius: 4px;
+}
+
+.container-btns button:nth-child(3) {
+  background-color: red;
+  border-radius: 4px;
+}
+
+.container-btns button:nth-child(4) {
+  color: black;
+}
+
+.container-jogos {
+  width: 100%;
+  max-width: 425px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+.paragrafo{
+  background-color: red;
+  border-radius: 4px;
+}
